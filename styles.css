@@ -1,0 +1,561 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #282c34;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .profile {
+    text-align: center;
+}
+
+header .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.resume {
+    --rem: 16;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text-emphasis: #052c65;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+    --bs-info-bg-subtle: #cff4fc;
+    --bs-warning-bg-subtle: #fff3cd;
+    --bs-danger-bg-subtle: #f8d7da;
+    --bs-light-bg-subtle: #fcfcfd;
+    --bs-dark-bg-subtle: #ced4da;
+    --bs-primary-border-subtle: #9ec5fe;
+    --bs-secondary-border-subtle: #c4c8cb;
+    --bs-success-border-subtle: #a3cfbb;
+    --bs-info-border-subtle: #9eeaf9;
+    --bs-warning-border-subtle: #ffe69c;
+    --bs-danger-border-subtle: #f1aeb5;
+    --bs-light-border-subtle: #e9ecef;
+    --bs-dark-border-subtle: #adb5bd;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg: #fff;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-emphasis-color: #000;
+    --bs-emphasis-color-rgb: 0, 0, 0;
+    --bs-secondary-color: rgba(33, 37, 41, 0.75);
+    --bs-secondary-color-rgb: 33, 37, 41;
+    --bs-secondary-bg: #e9ecef;
+    --bs-secondary-bg-rgb: 233, 236, 239;
+    --bs-tertiary-color: rgba(33, 37, 41, 0.5);
+    --bs-tertiary-color-rgb: 33, 37, 41;
+    --bs-tertiary-bg: #f8f9fa;
+    --bs-tertiary-bg-rgb: 248, 249, 250;
+    --bs-heading-color: inherit;
+    --bs-link-color: #0d6efd;
+    --bs-link-color-rgb: 13, 110, 253;
+    --bs-link-decoration: underline;
+    --bs-link-hover-color: #0a58ca;
+    --bs-link-hover-color-rgb: 10, 88, 202;
+    --bs-code-color: #d63384;
+    --bs-highlight-color: #212529;
+    --bs-highlight-bg: #fff3cd;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #dee2e6;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+    --bs-border-radius: 0.375rem;
+    --bs-border-radius-sm: 0.25rem;
+    --bs-border-radius-lg: 0.5rem;
+    --bs-border-radius-xl: 1rem;
+    --bs-border-radius-xxl: 2rem;
+    --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+    --bs-border-radius-pill: 50rem;
+    --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    --bs-focus-ring-width: 0.25rem;
+    --bs-focus-ring-opacity: 0.25;
+    --bs-focus-ring-color: rgba(13, 110, 253, 0.25);
+    --bs-form-valid-color: #198754;
+    --bs-form-valid-border-color: #198754;
+    --bs-form-invalid-color: #dc3545;
+    --bs-form-invalid-border-color: #dc3545;
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    box-sizing: border-box;
+    padding: 60px 0;
+    overflow: hidden;
+
+}
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+
+.resume .heading-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* Ensure positioning context for the circle */
+}
+
+.resume .heading-center .main_title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131022;
+    margin-bottom: 0;
+    position: relative;
+    /* Needed for the pseudo-element positioning */
+    display: inline-block;
+    /* Ensure the title does not take full width */
+}
+
+.resume .heading-center .main_title::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: #eff0fe;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Vertically center the circle */
+    left: calc(100% - 50px);
+    /* Position it right after the main title */
+    /* Adjusted left value to make the circle closer */
+    z-index: -1;
+    /* Place it behind the text */
+}
+
+.resume::after {
+    content: "";
+    width: 948px;
+    height: 16px;
+    background-color: #6772e5;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+
+.resume .resume-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resume .resume-h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+.contact-box a i.bi-envelope {
+    font-size: 2rem;
+    /* Adjust the size as needed */
+    color: white;
+    /* Adjust the color as needed */
+    margin-bottom: 10px;
+    /* Adjust the spacing as needed */
+    display: block;
+    /* Ensures the icon takes up the whole line */
+}
+
+.contact-box a:hover i.bi-envelope {
+    color: #cccccc;
+    /* Change color on hover */
+}
+
+/*#tableau-dashboard {
+    width: 100%;
+    height: 600px; /* Set your desired height here */
+
+
+#tableau-dashboard {
+    width: 100%;
+    /* Set your desired width here */
+    height: 600px;
+    margin: 0 auto;
+    /* Center the iframe horizontally */
+}
+
+#resumecss {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#resumecss .main_title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#resumecss .sub_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.resume .resume-tittle {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    /* Change to your desired font */
+    font-weight: bold;
+    font-size: 36px;
+    /* Adjust the size as needed */
+}
+
+.resume .resume-tittle .technical {
+    font-weight: 700;
+    color: #050d18;
+    /* Adjust the color as needed */
+    position: relative;
+    z-index: 1;
+}
+
+.resume .resume-tittle .skills {
+    font-family: 'Courier New', Courier, monospace;
+    /* Change to your desired font */
+    font-weight: 400;
+    font-style: italic;
+    color: #5a67d8;
+    /* Adjust the color as needed */
+    margin-left: 10px;
+    /* Adjust the spacing between the words */
+    position: relative;
+    z-index: 1;
+}
+
+.resume .resume-tittle::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    /* Adjust the size of the circle */
+    height: 100px;
+    /* Adjust the size of the circle */
+    background-color: rgba(90, 103, 216, 0.1);
+    /* Adjust the color and opacity */
+    border-radius: 50%;
+    z-index: 0;
+    left: 50%;
+    /* Adjust the position as needed */
+    transform: translateX(-50%);
+}
+
+.resume-tittle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    /* Adjust height as needed */
+    width: 100%;
+    margin-bottom: 20px;
+    /* Adjust the spacing below the heading */
+}
+
+.resume-portfolio-about-section {
+    background: url(https://files.codebasics.io/v3/images-webp/portfolio/portfoli-about-bg.webp);
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: auto;
+    width: 100%
+}
+
+.resume-portfolio-about-section .statics-info {
+    position: relative;
+    top: -80px
+}
+
+@media(max-width: 1199px) {
+    .resume-portfolio-about-section .statics-info img {
+        max-width: 90px
+    }
+}
+
+@media(max-width: 991px) {
+    .resume-portfolio-about-section .statics-info .rounded-pill {
+        border-radius: 30px !important
+    }
+
+    .resume-portfolio-about-section .statics-info img {
+        max-width: 60px
+    }
+}
+
+@media(max-width: 767px) {
+    .resume-portfolio-about-section .statics-info br {
+        display: none
+    }
+}
+
+.resume .resume-porfolio-heading-center {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 60px
+}
+
+@media(max-width: 767px) {
+    .resume-portfolio-about-section .porfolio-heading-center {
+        padding: 40px 0 30px
+    }
+}
+
+.resume-portfolio-about-section .porfolio-heading-center .main_title {
+    font-size: 2.625rem;
+    color: #131022;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media(max-width: 767px) {
+    .resume-portfolio-about-section .porfolio-heading-center .main_title {
+        font-size: 1.875rem
+    }
+}
+
+.resume-portfolio-about-section .porfolio-heading-center .main_title::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    background-color: #eff0fe;
+    position: relative;
+    z-index: -1;
+    margin-left: -70px
+}
+
+.resume-portfolio-about-section .porfolio-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: #6772e5;
+    font-family: caveat, cursive;
+    margin-bottom: 0;
+    margin-left: 1rem
+}
+
+@media(max-width: 767px) {
+    .resume-portfolio-about-section .porfolio-heading-center .sub_title {
+        font-size: 1.875rem
+    }
+}
+
+.card-title {
+    min-height: 85px;
+    /* Adjust this value as needed */
+}
+
+.card-text {
+    overflow: hidden;
+    /* Hide overflowed text */
+    text-overflow: ellipsis;
+    /* Add ellipsis (...) */
+}
+
+.card-text:hover {
+    white-space: normal;
+    /* Allow text to wrap on hover */
+    overflow: visible;
+    /* Show overflowed text on hover */
+    background-color: #fff;
+    /* Optional: Add background color to make the text more readable */
+    position: relative;
+    /* Ensure the position context for absolute positioning */
+    z-index: 1;
+    /* Ensure the text appears above other elements */
+}
